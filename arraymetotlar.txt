@@ -1,0 +1,173 @@
+
+//Dosya Yolu
+//http://notes.io/MyNv
+
+{
+partial class Form1
+{
+/// <summary>
+/// Required designer variable.
+/// </summary>
+private System.ComponentModel.IContainer components = null;
+
+/// <summary>
+/// Clean up any resources being used.
+/// </summary>
+/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+protected override void Dispose(bool disposing)
+{
+if (disposing && (components != null))
+{
+components.Dispose();
+}
+base.Dispose(disposing);
+}
+
+#region Windows Form Designer generated code
+
+/// <summary>
+/// Required method for Designer support - do not modify
+/// the contents of this method with the code editor.
+/// </summary>
+private void InitializeComponent()
+{
+this.button1 = new System.Windows.Forms.Button();
+this.txtGelenDeger = new System.Windows.Forms.TextBox();
+this.btnReverse = new System.Windows.Forms.Button();
+this.btnSort = new System.Windows.Forms.Button();
+this.btnResize = new System.Windows.Forms.Button();
+this.btnLastIndexOf = new System.Windows.Forms.Button();
+
+ 
+
+this.btnIndexOf = new System.Windows.Forms.Button();
+this.btnCopy = new System.Windows.Forms.Button();
+this.btnClear = new System.Windows.Forms.Button();
+this.SuspendLayout();
+//
+// button1
+//
+this.button1.Location = new System.Drawing.Point(18, 443);
+this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.button1.Name = "button1";
+this.button1.Size = new System.Drawing.Size(330, 45);
+this.button1.TabIndex = 40;
+this.button1.Text = "ARRAY.EXISTS()";
+this.button1.UseVisualStyleBackColor = true;
+//
+// txtGelenDeger
+//
+this.txtGelenDeger.Location = new System.Drawing.Point(18, 18);
+this.txtGelenDeger.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.txtGelenDeger.Name = "txtGelenDeger";
+this.txtGelenDeger.Size = new System.Drawing.Size(328, 26);
+this.txtGelenDeger.TabIndex = 39;
+//
+// btnReverse
+//
+this.btnReverse.Location = new System.Drawing.Point(18, 388);
+this.btnReverse.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnReverse.Name = "btnReverse";
+this.btnReverse.Size = new System.Drawing.Size(330, 45);
+this.btnReverse.TabIndex = 38;
+this.btnReverse.Text = "ARRAY.REVERSE()";
+this.btnReverse.UseVisualStyleBackColor = true;
+//
+// btnSort
+//
+this.btnSort.Location = new System.Drawing.Point(18, 333);
+this.btnSort.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnSort.Name = "btnSort";
+this.btnSort.Size = new System.Drawing.Size(330, 45);
+this.btnSort.TabIndex = 37;
+this.btnSort.Text = "ARRAY.SORT()";
+this.btnSort.UseVisualStyleBackColor = true;
+//
+// btnResize
+//
+this.btnResize.Location = new System.Drawing.Point(18, 278);
+this.btnResize.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnResize.Name = "btnResize";
+this.btnResize.Size = new System.Drawing.Size(330, 45);
+this.btnResize.TabIndex = 36;
+this.btnResize.Text = "ARRAY.RESIZE()";
+this.btnResize.UseVisualStyleBackColor = true;
+//
+// btnLastIndexOf
+//
+this.btnLastIndexOf.Location = new System.Drawing.Point(18, 223);
+this.btnLastIndexOf.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnLastIndexOf.Name = "btnLastIndexOf";
+this.btnLastIndexOf.Size = new System.Drawing.Size(330, 45);
+this.btnLastIndexOf.TabIndex = 35;
+this.btnLastIndexOf.Text = "ARRAY.LASTINDEXOF()";
+this.btnLastIndexOf.UseVisualStyleBackColor = true;
+//
+// btnIndexOf
+//
+this.btnIndexOf.Location = new System.Drawing.Point(18, 168);
+this.btnIndexOf.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnIndexOf.Name = "btnIndexOf";
+this.btnIndexOf.Size = new System.Drawing.Size(330, 45);
+this.btnIndexOf.TabIndex = 34;
+this.btnIndexOf.Text = "ARRAY.INDEXOF()";
+this.btnIndexOf.UseVisualStyleBackColor = true;
+//
+// btnCopy
+//
+this.btnCopy.Location = new System.Drawing.Point(18, 113);
+this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnCopy.Name = "btnCopy";
+this.btnCopy.Size = new System.Drawing.Size(330, 45);
+this.btnCopy.TabIndex = 33;
+this.btnCopy.Text = "ARRAY.COPY()";
+this.btnCopy.UseVisualStyleBackColor = true;
+//
+// btnClear
+//
+this.btnClear.Location = new System.Drawing.Point(18, 58);
+this.btnClear.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.btnClear.Name = "btnClear";
+this.btnClear.Size = new System.Drawing.Size(330, 45);
+this.btnClear.TabIndex = 32;
+this.btnClear.Text = "ARRAY.CLEAR()";
+this.btnClear.UseVisualStyleBackColor = true;
+//
+// Form1
+//
+this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+
+ 
+
+this.ClientSize = new System.Drawing.Size(369, 501);
+this.Controls.Add(this.button1);
+this.Controls.Add(this.txtGelenDeger);
+this.Controls.Add(this.btnReverse);
+this.Controls.Add(this.btnSort);
+this.Controls.Add(this.btnResize);
+this.Controls.Add(this.btnLastIndexOf);
+this.Controls.Add(this.btnIndexOf);
+this.Controls.Add(this.btnCopy);
+this.Controls.Add(this.btnClear);
+this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+this.Name = "Form1";
+this.Text = "Form1";
+this.ResumeLayout(false);
+this.PerformLayout();
+
+}
+
+#endregion
+private System.Windows.Forms.Button button1;
+private System.Windows.Forms.TextBox txtGelenDeger;
+private System.Windows.Forms.Button btnReverse;
+private System.Windows.Forms.Button btnSort;
+private System.Windows.Forms.Button btnResize;
+private System.Windows.Forms.Button btnLastIndexOf;
+private System.Windows.Forms.Button btnIndexOf;
+private System.Windows.Forms.Button btnCopy;
+private System.Windows.Forms.Button btnClear;
+}
+}
